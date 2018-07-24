@@ -14,10 +14,13 @@ def breakfast(food="frosted flakes")
     "I love #{food} for lunch!"
   end
   
-  def diner(food="salmon",side=salad)
-    "My favorite dinner meal is #{food} with #{side}"
+  def dinner(food="salmon")
+    "My favorite dinner meal is #{food}"
   end
   
+  puts breakfast
+  puts lunch
+  puts dinner
   
   
   
