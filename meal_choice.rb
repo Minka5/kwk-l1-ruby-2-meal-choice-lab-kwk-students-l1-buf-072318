@@ -15,7 +15,10 @@ def breakfast(food="frosted flakes")
   end
   
   def diner(food="salmon",side=salad)
-    "My favorite dinner meal is #{food}"
+    "My favorite dinner meal is #{food} with #{side}"
+  end
+  
+  
   
   
   
